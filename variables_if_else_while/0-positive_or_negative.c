@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-**/
+ *  * main - Prints a random number and states whether
+ *   *        it is positive, negative, or zero.
+ *    *
+ *     * Return: Always 0.
+ *     **/
 int main(void)
 {
 	int n;
@@ -13,11 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	printf("is positive");
+	printf("%dis positive/n", n);
 	else if n = 0
-	printf("is zero");
+	printf("%dis zero/n", n);
 	else
-	printf("is negative");
+	printf("%dis negative/n", n);
 
 	return (0);
 }
