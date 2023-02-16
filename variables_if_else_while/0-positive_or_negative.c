@@ -19,7 +19,7 @@ else if n = 0
 {
 printf("is zero");
 }
-else
+else n < 0
 {
 printf("is negative");
 }
