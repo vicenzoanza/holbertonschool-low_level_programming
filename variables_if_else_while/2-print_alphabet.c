@@ -3,7 +3,7 @@
 int main(void)
 {
 char i;
-printf("\n\n\n");
+printf("\n");
 for (i = 'a'; i <= 'z'; i++)
 printf("%c", i);
 return (0);
