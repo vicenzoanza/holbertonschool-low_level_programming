@@ -3,7 +3,7 @@
 int main(void)
 {
 char i;
-printf("\n\nLower case characters:\n");
+printf("\n\n");
 for (i = 'a'; i <= 'z'; i++)
 printf("%c", i);
 return (0);
