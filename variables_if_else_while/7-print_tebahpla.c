@@ -9,7 +9,8 @@
 int main(void)
 {
 	char i;
-	for (i = 'z'; i >= 'a'; i--)
+
+	for (i = 'z' ; i >= 'a' ; i--)
 		printf("%c", i);
 	printf("\n");
 	return (0);
