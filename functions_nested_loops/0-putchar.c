@@ -1,31 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
+#include "main.h"
 /*
  * main - Entry point
  * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
-int _putchar;
+int i;
+char c() = "_putchar";
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('c');
-putchar('a');
-putchar('r');
-putchar('\n');
 
+for (i = 0; i < 9; i++)
+{
+_putchar(c(i));
+}
+_putchar('\n');
 return (0);
-
-
-
-
-
 }
