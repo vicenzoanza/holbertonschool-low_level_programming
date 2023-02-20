@@ -13,6 +13,7 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	putchar(i);
 	for (l = 'a'; l <= 'f'; l++)
+	putchar(l);
 	putchar('\n');
 	return (0);
 
