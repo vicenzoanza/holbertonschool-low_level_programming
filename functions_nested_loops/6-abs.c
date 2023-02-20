@@ -2,11 +2,11 @@
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return:
  * */
 int _abs(int i)
 {
-int num = abs(i);
+int num = _abs(i);
 
 return (num);
 }
