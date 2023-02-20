@@ -6,13 +6,12 @@
 
 int main(void)
 {
+char c[8] = "_putchar";
 int i;
-char c() = "_putchar";
 
-
-for (i = 0; i < 9; i++)
+for (i = 0; i < 7; i++)
 {
-_putchar(c(i));
+_putchar(c[8]);
 }
 _putchar('\n');
 return (0);
