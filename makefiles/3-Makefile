@@ -7,9 +7,9 @@ all: ${OBJ}
 	${CC}	${OBJ}	${NAME}
 clean:
 	${RM}	${NAME}
-oclean:
-	clean oclean
 fclean:
+	clean oclean
+oclean:
 	${RM}	${OBJ}
 re:
-	re all
+	oclean all
