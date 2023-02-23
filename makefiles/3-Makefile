@@ -6,10 +6,10 @@ RM = rm -f
 all: ${OBJ}
 	${CC}	${OBJ}	${NAME}
 clean:
-	${RM}	*~	${NAME}
+	${RM} *~ ${NAME}
 fclean:
 	clean oclean
 oclean:
 	${RM}	${OBJ}
 re:
-	re all
+	fclean all
