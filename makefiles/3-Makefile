@@ -10,4 +10,4 @@ clean:
 fclean: clean oclean
 oclean:
 	${RM}	${OBJ}
-re:	all
+re:	fclean all
