@@ -11,4 +11,5 @@ oclean:
 	clean oclean
 fclean:
 	${RM}	${OBJ}
-
+re:
+	re all
