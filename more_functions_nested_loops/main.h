@@ -6,3 +6,4 @@ void print_numbers(void); /** 3 **/
 void print_most_numbers(void); /** 4 **/
 void more_numbers(void); /** 5 **/
 void print_line(int n); /** 6 **/
+void print_diagonal(int n); /** 7 **/
