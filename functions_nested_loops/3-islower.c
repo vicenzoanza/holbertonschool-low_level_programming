@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *     * Return: 1 if it is a lowercase letter, or 0.
+ * _islower - 1 if it is a lowercase letter, or 0.
+ * @c: letter
  */
 int _islower(int c)
 {
