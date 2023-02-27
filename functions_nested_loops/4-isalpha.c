@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * _isalpha
- *   *
- *    * Return:
- *     **/
+* _isalpha - Alphabetic character 
+* @c: character
+* Return: 1 letter or 0
+**/
 
 int _isalpha(int c)
 {
