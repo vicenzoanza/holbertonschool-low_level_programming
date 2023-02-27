@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
 * swap_int - Function swaps the value
-* @x: integer
-* @y: integer 
-**/ 
+* @b: integer
+* @a: integer
+**/
 void swap_int(int *a, int *b)
 {
 int x;
