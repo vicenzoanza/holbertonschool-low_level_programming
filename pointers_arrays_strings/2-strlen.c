@@ -3,11 +3,17 @@
 #include "string.h"
 /**
  * _strlen - function that returns the length of a string.
- * @s: string
+ * @s: char
+ * Return: len
  **/
 int _strlen(char *s)
 {
-char c[16]="My first strlen";
+int len = 0;
 
-printf("%s\n", c);
+while (*s != '\0')
+{
+s++;
+len++;
+}
+return (len);
 }
