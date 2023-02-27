@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isalpha - Alphabetic character 
+* _isalpha - Alphabetic character
 * @c: character
 * Return: 1 letter or 0
 **/
