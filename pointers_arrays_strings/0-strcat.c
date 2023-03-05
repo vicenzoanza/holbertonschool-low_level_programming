@@ -8,15 +8,15 @@
  **/
 char *_strcat(char *dest, char *src)
 {
-char *n = dest;
-while (*n != '\0')
+char n = dest;
+while (n != '\0')
 {
 n++;
 }
 while (*src != '\0')
 {
-*n++ = *src++;
+n++ = *src++;
 }
-*n = '\0';
+n = '\0';
 return (dest);
 }
