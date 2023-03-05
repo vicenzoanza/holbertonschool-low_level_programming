@@ -20,5 +20,5 @@ if (p < n)
 dest[p] = '\0';
 p++;
 }
-return dest;
+return (dest);
 }
