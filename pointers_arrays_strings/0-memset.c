@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _memset - Fills the n bytes of the memory area
- * pointed to by s with the constant byte b.
+ * _memset - Fills the n bytes of the memory
+ * pointed to by s with constant byte b.
  * @s : the address of memory to print.
  * @b : byte.
  * @n: bytes of the memory.
