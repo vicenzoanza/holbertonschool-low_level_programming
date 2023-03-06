@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _strspn - get the length.
  * @s: string.
  * @accept: chart.
@@ -7,20 +7,21 @@
  **/
 unsigned int _strspn(char *s, char *accept)
 {
- unsigned int p = 0;
- int j;
- int i;
+unsigned int p = 0;
+int j;
+int i;
 
 for (i = 0; s[i] != '\0'; i++)
 {
-for (j = 0; accept[j] != '\0'; j++) {
+for (j = 0; accept[j] != '\0'; j++)
+{
 if (s[i] == accept[j])
 {
 p++;
 break;
 }
 }
-if (accept[j] == '\0') 
+if (accept[j] == '\0')
 {
 break;
 }
