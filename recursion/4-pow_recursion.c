@@ -5,7 +5,7 @@
  * @y: exponent.
  * Return: -1 to indicate an error and 1 if the exponent is 0.
  **/
-int _pow_recursion(int x, int y) 
+int _pow_recursion(int x, int y)
 {
 if (y < 0)
 {
