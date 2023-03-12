@@ -19,10 +19,6 @@ return (1);
 }
 else
 {
-for (; i <= n; ++i)
-{
-r *= i;
-}
-return (r);
+return (n * factorial(n - 1));
 }
 }
