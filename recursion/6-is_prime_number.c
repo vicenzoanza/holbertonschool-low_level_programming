@@ -13,7 +13,7 @@ if (n <= 1)
 {
 return (0);
 }
-else if (n == 3 || n == 2)
+else if (n == 2 || n == 3)
 {
 return (1);
 }
@@ -23,7 +23,7 @@ return (0);
 }
 else
 {
-for (int i = 3; i <= n / 2; i += 2)
+for (i = 3; i <= n / 2; i += 2)
 {
 if (n % i == 0)
 {
