@@ -31,8 +31,8 @@ for (; j < i; j++)
 free(grid[j]);
 }
 free(grid);
-return NULL;
+return (NULL);
 }
 }
-return grid;
+return (grid);
 }
