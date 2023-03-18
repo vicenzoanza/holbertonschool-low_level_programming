@@ -6,7 +6,7 @@
  * @s1: string destination.
  * @s2: string to move.
  * Return: a pointer to a newly allocated space in memory.
- **/ 
+ **/
 char *str_concat(char *s1, char *s2)
 {
 size_t len1 = strlen(s1);
