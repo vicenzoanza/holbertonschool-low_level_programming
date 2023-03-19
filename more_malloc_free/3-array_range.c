@@ -11,6 +11,7 @@ int *array_range(int min, int max)
 {
 int size = max - min + 1;
 int *ppp = malloc(sizeof(int) * size);
+int i = 0;
 
 if (min > max)
 {
@@ -20,8 +21,7 @@ if (ppp == NULL)
 {
 return (NULL);
 }
-for (int i = 0; i < size; i++)
+for (; i < size; i++)
 ppp[i] = min++;
-
 return (ppp);
 }
