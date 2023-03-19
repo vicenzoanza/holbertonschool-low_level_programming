@@ -5,7 +5,7 @@
  * malloc_checked - allocates memory using.
  * @b: memory size.
  * Return: pointer to the allocated memory.
- **/ 
+ **/
 void *malloc_checked(unsigned int b)
 {
 void *ppp = malloc(b);
