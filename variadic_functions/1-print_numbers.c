@@ -9,10 +9,11 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list arguments;
-va_start(arguments, n);
-unsigned int i = 0;
+unsigned int i;
 
-for (; i < n; i++)
+va_start(arguments, n);
+
+for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(arguments, int));
 if (separator != NULL && i < n - 1)
