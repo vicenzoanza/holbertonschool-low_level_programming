@@ -3,7 +3,11 @@
 #include <stdio.h>
 /**
  * print_all - prints anything.
- * @format: a list of types of arguments passed to the function
+ * @format: a list of types of arguments passed to the function.
+ * @c: char.
+ * @i: integer.
+ * @f: float.
+ * @s: char *.
  **/
 
 void print_all(const char * const format, ...)
