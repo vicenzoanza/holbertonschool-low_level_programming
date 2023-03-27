@@ -8,16 +8,16 @@
  **/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list ppp;
-va_start(ppp, n);
-int i = 0;
+va_list arguments;
+va_start(arguments, n);
+unsigned int i = 0;
 
 for (; i < n; i++)
 {
-printf("%d", va_arg(ppp, int));
+printf("%d", va_arg(arguments, int));
 if (separator != NULL && i < n - 1)
 printf("%s", separator);
 }
-va_end(ppp);
+va_end(arguments);
 printf("\n");
 }
