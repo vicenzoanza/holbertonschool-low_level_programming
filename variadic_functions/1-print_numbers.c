@@ -10,9 +10,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list ppp;
 va_start(ppp, n);
-unsigned int i;
+unsigned int i = 0;
 
-for (i = 0; i < n; i++)
+for (; i < n; i++)
 {
 printf("%d", va_arg(ppp, int));
 if (separator != NULL && i < n - 1)
