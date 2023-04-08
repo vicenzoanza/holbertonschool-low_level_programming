@@ -1,9 +1,14 @@
+#ifndef lists_h
+#define lists_h
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *
  * Description: singly linked list node structure
  */
 
@@ -19,3 +24,5 @@ size_t list_len(const list_t *h); /** 1 **/
 list_t *add_node(list_t **head, const char *str); /** 2 **/
 list_t *add_node_end(list_t **head, const char *str); /** 3 **/
 void free_list(list_t *head); /** 4 **/
+
+#endif
