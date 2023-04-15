@@ -5,4 +5,5 @@ int _islower(int c); /** 3 **/
 int _isalpha(int c); /** 4 **/
 int print_sign(int n);/** 5 **/
 int _abs(int); /** 6 **/
+int print_last_digit(int n); /** 7 **/
 int add(int, int); /** 10 **/
