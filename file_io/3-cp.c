@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - copies the content of a file to another file.
- * @argc: argument. 
+ * @argc: argument.
  * @argv: argument
  * Return: 0.
  **/
