@@ -13,6 +13,10 @@ int i, n, result;
 	{
 	result = (i * n);
 	printf("%2d, ", result);
+	if (n != 9)
+	{
+	printf(", ");
+	}
 	}
 	printf("\n");
 	}
