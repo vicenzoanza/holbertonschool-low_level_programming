@@ -12,7 +12,7 @@ int i, n, result;
 	for (n = 0; n <= 9; n++)
 	{
 	result = (i * n);
-	printf("%2d, ", result);
+	printf("%2d", result);
 	if (n != 9)
 	{
 	printf(", ");
