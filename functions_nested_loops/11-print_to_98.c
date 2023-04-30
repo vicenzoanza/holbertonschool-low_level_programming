@@ -3,18 +3,19 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98, with new line.
  * @n: integer.
- **/ 
+ **/
 void print_to_98(int n)
 {
-	while (n <= 98)
-	{
-	printf("%d", n);
-	if (n != 98)
-	{
-	printf(", ");
-	}
-	n++;
-	}
-	printf("\n");
-}
+int num = n;
 
+printf("%d", num);
+while (num != 98)
+{
+if (num > 98)
+num--;
+else
+num++;
+printf(", %d", num);
+}
+printf("\n");
+}
